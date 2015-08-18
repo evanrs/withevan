@@ -19,8 +19,6 @@ a {
 .jumbotron {
     width: 100%;
     text-align: center;
-    padding: 60px 30px;
-    line-height: 30px;
 
     position: absolute;
     top: 50%;
@@ -28,9 +26,13 @@ a {
     transform: translate(-50%, -50%);
 
     h1 {
-        font-size: 60px;
-        line-height: 90px;
+        font-size: 35px;
+        line-height: 60px;
         font-weight: 100;
+        @media @nonmobile {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
     }
     .subheading {
         font-weight: 300;
