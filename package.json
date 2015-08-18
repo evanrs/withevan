@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/evanrs/withevan/issues"
   },
-  "homepage": "https://github.com/evanrs/withevan"
+  "homepage": "https://github.com/evanrs/withevan",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
