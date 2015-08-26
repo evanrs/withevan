@@ -5,7 +5,16 @@
 body {
     background-color: @blue;
     color: @black0;
+    font-family: 'Muli', sans-serif;
+    font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
+}
+
+p {
+    line-height: 1.5em;
 }
 
 a {
@@ -16,7 +25,7 @@ a {
     }
 }
 
-.jumbotron {
+.overlay {
     width: 100%;
     text-align: center;
 
@@ -24,7 +33,12 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
 
+.jumbotron {
+    text-align: center;
+    min-height: 50%;
+    margin: 10% 0;
     h1 {
         font-size: 35px;
         line-height: 60px;
